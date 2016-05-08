@@ -1,0 +1,60 @@
+As we were running multiple GPU servers on Amazon AWS we have different files for every experiments. 
+Below is a short explanation for the jupyter notebook. 
+
+
+1. MNIST_nodrop_dropout_experiments.ipynb
+	following experiments were run on this notebook. 
+	a)No-drop on linear
+	b)No-drop on tanh
+	c)No-drop on sigmoid
+	d)Dropout with linear 
+	e)Dropout with tanh	
+	f)Dropout with sigmoid 
+	g)Dropout with changing hidden units
+	h)No-Drop changing hidden layers
+	i)Dropout for different values of p.
+		Note that as we lost the connection in between for p = [0.1,0.2,0.3,0.4,0.5], we
+		copy-pasted the results. 
+
+2.MNIST_dropconnect_sigmoid.ipnyb
+	a)MNIST dropconnect sigmoid
+
+3.MNIST_dropconnect_tanh.ipynb
+	a)MNIST dropconnect tanh- 16 epochs only
+
+4.MNIST_dropconnect_linear_rectifier.ipynb
+----------------------------------------------------------------
+5.MNIST_CNN2_dropconnect_crop_nocrop.ipynb
+	a)MNIST dropconnect linear
+	b)MNIST dropconnect crop linear
+
+6.MNIST_CNN2_dropconnect_with_crop_and_rotate.ipynb
+	a)MNIST CNN2 with drop and rotate- 13 epochs only
+
+7.MNIST_CNN2.ipynb     
+	a)MNIST dropout linear
+	b)MNIST dropout linear crop
+	c)MNIST dropout linear crop and rotate
+	d)MNIST linear no drop
+	e)MNIST linear no drop crop
+	f)MNIST linear no drop crop and rotate
+	*g)CIFAR-10 dropconnect    
+	
+
+	*this experiment has been run on the above notebook which should be in the below set of experiments. 
+-----------------------------------------------------------------
+8.SVHN_CIFAR-10_experiments.ipynb
+	a)SVHN dropout
+	b)CIFAR-10 dropout
+	c)SVHN no drop
+	d)CIFAR-10 no drop
+	e)SVHN dropconnect linear
+
+
+
+
+
+
+
+
+
